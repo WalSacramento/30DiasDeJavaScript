@@ -69,3 +69,16 @@ Math.sin(60)
 
 Math.cos(0)
 Math.cos(60)
+
+//Gerador de números aleatórios
+// let randomNum = Math.random() // generates 0 to 0.999...
+
+//Gerar número aleatorio entre 0 e 10
+
+let randomNum = Math.random() // generates 0 to 0.999
+let numBtnZeroAndTen = randomNum * 11
+
+console.log(numBtnZeroAndTen) // this gives: min 0 and max 10.99
+
+let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
+console.log(randomNumRoundToFloor) // this gives between 0 and 10
