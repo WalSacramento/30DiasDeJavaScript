@@ -24,7 +24,7 @@ const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland'] // array
 
 // Print the array and its length
 
-console.log('Numbers:' + numbers)
+console.log('Numbers:', numbers)
 console.log('Number of numbers:', numbers.length)
 
 console.log('Fruits:', fruits)
