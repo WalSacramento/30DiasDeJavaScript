@@ -57,6 +57,7 @@ console.log('\n')
 for (i = 0; i <= 10; i++) {
   console.log(i, ' X ', i, ' = ', i * i)
 }
+console.log('\n')
 
 // Using loop print the following pattern
 console.log('i i² i³')
