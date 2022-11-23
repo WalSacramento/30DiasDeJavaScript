@@ -32,7 +32,7 @@ console.log(a, b) // JavaScript 10, accessible
 // Objeto
 // Tudo pode ser um objeto e os objetos têm propriedades e as propriedades têm valores, portanto, um objeto é um par chave-valor. A ordem da chave não está reservada ou não há ordem. Para criar um objeto literal, usamos duas chaves.
 
-const person = {} // Objeto vazio
+const person1 = {} // Objeto vazio
 
 const rectangle = {
   length: 20,
@@ -40,7 +40,7 @@ const rectangle = {
 }
 console.log(rectangle) // {length: 20, width: 20}
 
-const person = {
+const person2 = {
   firstName: 'Asabeneh',
   lastName: 'Yetayeh',
   age: 250,
@@ -87,7 +87,7 @@ console.log(person.getFullName())
 // Asabeneh Yetayeh
 
 //Adicionando ao objeto
-const person = {
+const person3 = {
   firstName: 'Asabeneh',
   lastName: 'Yetayeh',
   age: 250,
